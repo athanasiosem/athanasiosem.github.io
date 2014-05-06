@@ -1,4 +1,3 @@
-// Go to http://www.addthis.com/get/smart-layers to customize
   addthis.layers({
     'theme' : 'transparent',
     'share' : {
