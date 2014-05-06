@@ -1,4 +1,4 @@
-  addthis.layers({
+addthis.layers({
     'theme' : 'transparent',
     'share' : {
       'position' : 'left',
@@ -11,4 +11,4 @@
         {'service': 'google_follow', 'id': 'athanasiosem'}
       ]
     }   
-  });
+});
