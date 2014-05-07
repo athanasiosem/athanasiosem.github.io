@@ -8,7 +8,7 @@ addthis.layers({
       'services' : [
         {'service': 'twitter', 'id': 'athanasiosem'},
         {'service': 'linkedin', 'id': 'athanasiosem'},
-        {'service': 'google_follow', 'id': 'athanasiosem'}
+        {'service': 'google_follow', 'id': '112046768411727625862'}
       ]
     }   
 });
