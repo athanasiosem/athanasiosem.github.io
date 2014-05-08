@@ -2,7 +2,7 @@
 	Web developer: Athanasios Emmanouilidis
 	Contact: athanasiosem [at] inbox.com	
 	Twitter: @athanasiosem
-	Google+: https://plus.google.com/112046768411727625862/
+	Google+: https://plus.google.com/112046768411727625862
 	From: Thessaloniki, Greece
 
 /* THANKS */
