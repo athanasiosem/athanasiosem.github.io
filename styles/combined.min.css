@@ -3292,7 +3292,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 .alert-danger .alert-link {
     color: #843534;
 }
-}@keyframes progress-bar-stripes {
+@keyframes progress-bar-stripes {
     from {
     background-position: 40px 0;
 }
@@ -4177,9 +4177,6 @@ button.close {
 }
 .affix {
     position: fixed;
-}
-@-ms-viewport {
-    width: device-width;
 }
 .visible-lg, .visible-md, .visible-sm, .visible-xs, td.visible-lg, td.visible-md, td.visible-sm, td.visible-xs, th.visible-lg, th.visible-md, th.visible-sm, th.visible-xs, tr.visible-lg, tr.visible-md, tr.visible-sm, tr.visible-xs {
     display: none!important;
