@@ -1372,7 +1372,6 @@ textarea.input-lg {
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
     cursor: not-allowed;
     opacity: .65;
-    filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -3369,7 +3368,6 @@ to {
 }
 .media, .media-body {
     overflow: hidden;
-    zoom: 1;
 }
 .media, .media .media {
     margin-top: 15px;
@@ -3667,14 +3665,12 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:focus .
     color: #000;
     text-shadow: 0 1px 0 #fff;
     opacity: .2;
-    filter: alpha(opacity=20);
 }
 .close:focus, .close:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
     opacity: .5;
-    filter: alpha(opacity=50);
 }
 button.close {
     padding: 0;
@@ -3739,11 +3735,9 @@ button.close {
 }
 .modal-backdrop.fade {
     opacity: 0;
-    filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
     opacity: .5;
-    filter: alpha(opacity=50);
 }
 .modal-header {
     min-height: 16.43px;
@@ -3799,12 +3793,10 @@ button.close {
     font-size: 12px;
     line-height: 1.4;
     opacity: 0;
-    filter: alpha(opacity=0);
     visibility: visible;
 }
 .tooltip.in {
     opacity: .9;
-    filter: alpha(opacity=90);
 }
 .tooltip.top {
     padding: 5px 0;
@@ -4055,7 +4047,6 @@ button.close {
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
     opacity: .5;
-    filter: alpha(opacity=50);
 }
 .carousel-control.left {
     background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5)0), color-stop(rgba(0, 0, 0, .0001)100%));
@@ -4074,7 +4065,6 @@ button.close {
     text-decoration: none;
     outline: 0;
     opacity: .9;
-    filter: alpha(opacity=90);
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
     position: absolute;
