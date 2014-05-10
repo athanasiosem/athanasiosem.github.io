@@ -6089,12 +6089,12 @@ h3 {
 .first-column {
     background-color: #fff;
 }
-div#about-page-greek div.container div.row div.first-column ul li {
+div#skills ul li {
     list-style-type: none;
     margin-bottom: 20px;
     display: inline-block;
 }
-div#about-page-greek div.container div.row div.first-column ul li span {
+div#skills ul li span {
     background-color: #C4E3F3;
     border-radius: 15px;
     padding: 10px;
