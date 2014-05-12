@@ -6090,12 +6090,12 @@ h3 {
 .first-column {
     background-color: #fff;
 }
-div#skills ul li {
+#skills ul li {
     list-style-type: none;
     margin-bottom: 20px;
     display: inline-block;
 }
-div#skills ul li span {
+#skills ul li span {
     background-color: #C4E3F3;
     border-radius: 15px;
     padding: 10px;
@@ -6145,7 +6145,7 @@ h1, h3 {
 .navbar {
     margin-bottom: 0;
 }
-div#about-page-greek div.container div.row div.first-column div#skills ul {
+#about-page-greek div.container div.row div.first-column #skills ul {
     padding-top: 10px;
 }
 #banner_wrapper {
@@ -6174,13 +6174,13 @@ label {
 #follow-me-links {
     text-align: right;
 }
-div#skills ul {
+#skills ul {
     padding-left: 0;
 }
-div#languages ul {
+#languages ul {
     padding-left: 15px;
 }
-html body div#spa-master div#home-page-greek-div div#about-page-greek div.container div.row div.first-column div#languages ul li {
+html body #spa-master #home-page-greek-div #about-page-greek div.container div.row div.first-column #languages ul li {
     display: list-item;
     list-style-type: disc;
     margin-left: 0;
@@ -6202,4 +6202,4 @@ h2{font-size:18px;font-weight:bold;}
 }
 .banner_headline{font-size:37px;font-weight:bold;}
 .banner_subheadline{font-size:23px;line-height:1.1;}
-div#languages ul li{margin-bottom:0px;list-style-type:disc;}
+#languages ul li{margin-bottom:0px;list-style-type:disc;}
