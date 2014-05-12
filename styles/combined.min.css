@@ -6192,7 +6192,6 @@ html body div#spa-master div#home-page-greek-div div#about-page-greek div.contai
 .no_border_bottom {
     border-bottom: 0;
 }
-}
 @media print {
 #navbar-greek, div.second-column, #footer-greek, #logo_box_container, img{
 display: none !important;
