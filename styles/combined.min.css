@@ -8309,7 +8309,7 @@ h1, h3 {
   margin-bottom: 0;
 }
 
-#about-page-greek div.container div.row div.first-column #skills ul {
+#skills ul {
   padding-top: 10px;
 }
 
@@ -8353,7 +8353,7 @@ label {
   padding-left: 15px;
 }
 
-html body #spa-master #home-page-greek-div #about-page-greek div.container div.row div.first-column #languages ul li {
+#languages ul li {
   display: list-item;
   list-style-type: disc;
   margin-left: 0;
