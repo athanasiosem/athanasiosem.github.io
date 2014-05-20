@@ -10,7 +10,8 @@
 		
 
 /* SITE */
-	Last update: 2014/05/06
+	Last update: 2014/05/20
 	Language: Greek
 	Doctype: HTML5
 	IDE: Aptana Studio 3, Eclipse
+	Software: HTML5, CSS3, JavaScript, Bootstrap
