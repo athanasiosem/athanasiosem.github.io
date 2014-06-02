@@ -8407,8 +8407,13 @@ text-align:center;
 }
 
 .banner_subheadline {
-  font-size: 23px;
+  font-size: 69px;
   line-height: 1.1;
+}
+
+.banner_text
+{
+font-size:23px;
 }
 
 #languages ul li {
