@@ -6421,7 +6421,7 @@ body {
   padding-right: 15px;
 }
 
-.header {
+.container > header {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -6432,9 +6432,6 @@ body {
   padding-bottom: 19px;
 }
 
-.footer {
-  border-top: 1px solid #e5e5e5;
-}
 
 @media (min-width:768px) {
   .container {
@@ -8375,10 +8372,15 @@ opacity: 1.0;
 text-align:center;
 }
 
+#footer-greek > .container
+{
+border-top:1px solid #e5e5e5;
+padding-top:15px;
+}
+
 #banner
 {
     border-bottom: 1px solid #E5E5E5;
-    border-top: 1px solid #E5E5E5;
     padding-bottom: 15px;
     padding-top: 15px;
 }
