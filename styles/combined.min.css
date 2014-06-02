@@ -6344,12 +6344,6 @@ body {
   width: 970px;
 }
 
-.col-xs-4 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-}
 
 .container .navbar-collapse, .container .navbar-header {
   margin-right: 0;
@@ -8366,6 +8360,19 @@ label {
 
 .no_border_bottom {
   border-bottom: 0;
+}
+
+.navbar-right img {
+opacity: 0.2;
+}
+
+.navbar-right img:hover {
+opacity: 1.0;
+}
+
+.footer
+{
+text-align:center;
 }
 
 @media print {
