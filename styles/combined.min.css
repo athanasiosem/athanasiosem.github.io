@@ -8381,8 +8381,10 @@ padding-top:15px;
 #banner
 {
     border-bottom: 1px solid #E5E5E5;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding: 30px;
+    background-color:#428BCA;
+    color:white;
+    margin-top:10px;
 }
 
 @media print {
