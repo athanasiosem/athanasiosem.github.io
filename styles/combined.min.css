@@ -8327,6 +8327,11 @@ label {
   text-align: right;
 }
 
+#big-banner
+{
+	background-color:#428BCA;
+}
+
 #skills ul {
   padding-left: 0;
 }
@@ -8380,7 +8385,6 @@ padding-top:15px;
     padding: 30px;
     background-color:#428BCA;
     color:white;
-    margin-top:10px;
 }
 
 @media print {
