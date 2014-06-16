@@ -8415,8 +8415,7 @@ padding-top:15px;
 .banner_headline {
   font-size: 37px;
   font-weight: bold;
-  line-height: 1.1;
-  }
+}
 
 .banner_subheadline {
   font-size: 69px;
@@ -8426,6 +8425,8 @@ padding-top:15px;
 .banner_text
 {
 font-size:23px;
+  line-height: 1.1;
+
 }
 
 #languages ul li {
