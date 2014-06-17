@@ -8374,13 +8374,13 @@ body > header {
 
 #cogs {
 	padding-top: 60px;
-	float:right;
+	float: right;
 }
 
-.footer {
-	text-align: center;
+.footer p
+{
+	text-align:center;
 }
-
 #footer-greek > .container {
 	border-top: 1px solid #e5e5e5;
 	padding-top: 15px;
@@ -8398,6 +8398,22 @@ body > header {
 
 button#contact-button {
 	background-color: #f9f9f9;
+}
+
+#social_media_menu ul{
+	padding-top:25px;
+	list-style: none;
+}
+
+#social_media_menu li{
+	display: inline-block;
+	padding-right:15px;
+	opacity:0.2;
+}
+
+#social_media_menu li:hover
+{
+	opacity:1;
 }
 
 @media print {
