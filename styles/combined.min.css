@@ -8392,6 +8392,11 @@ body > header {
 	color: white;
 }
 
+#contact-button
+{
+	padding-top: 10px; padding-left: 15px;
+}
+
 @media print {
 	#navbar-greek, .second-column, #footer-greek, #logo_box_container, img {
 		display: none !important;
