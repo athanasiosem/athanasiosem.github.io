@@ -8374,6 +8374,7 @@ body > header {
 
 #cogs {
 	padding-top: 60px;
+	float:right;
 }
 
 .footer {
