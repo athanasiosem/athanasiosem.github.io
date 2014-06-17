@@ -29,6 +29,7 @@
 		}
 	});
 
+
 	//
 	// Smooth scrolling code
 	// (Click event for any anchor tag that's href starts with #)
