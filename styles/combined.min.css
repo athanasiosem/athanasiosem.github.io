@@ -8372,9 +8372,8 @@ body > header {
 	opacity: 1.0;
 }
 
-#cogs
-{
-	padding-top:60px;
+#cogs {
+	padding-top: 60px;
 }
 
 .footer {
@@ -8392,9 +8391,13 @@ body > header {
 	color: white;
 }
 
-#contact-button
-{
-	margin-top: 5px; margin-left: 5px;
+#contact-button {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+button#contact-button {
+	background-color: #f9f9f9;
 }
 
 @media print {
