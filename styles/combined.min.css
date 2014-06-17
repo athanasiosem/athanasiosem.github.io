@@ -8372,6 +8372,11 @@ body > header {
 	opacity: 1.0;
 }
 
+#cogs
+{
+	padding-top:60px;
+}
+
 .footer {
 	text-align: center;
 }
