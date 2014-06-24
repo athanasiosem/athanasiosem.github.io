@@ -349,6 +349,7 @@ h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
 .h2, h2 {
 	font-size: 30px;
 	padding-bottom: 10px;
+/*	border-bottom:1px solid #DDD;*/
 }
 
 .h3, h3 {
