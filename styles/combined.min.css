@@ -22,6 +22,7 @@
 		font-family: sans-serif;
 		-webkit-text-size-adjust: 100%;
 		-ms-text-size-adjust: 100%;
+		background-color:black;
 	}
 
 	body {
@@ -238,7 +239,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #333;
-	background-color: #fff;
+	background-color: #FAFAFA;
 }
 
 button, input, select, textarea {
@@ -8168,12 +8169,12 @@ transform: translateX(100%) rotate(120deg);
 }
 
 .footer {
-	padding-top: 15px;
-	margin-bottom: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	width: 100%;
-	min-height: 50px;
-	color: #666;
-	margin-top: 20px;
+	color: #999;
+	background-color:black;
+	
 }
 
 body {
@@ -8378,10 +8379,6 @@ body > header {
 {
 	text-align:center;
 }
-#footer-greek > .container {
-	border-top: 1px solid #e5e5e5;
-	padding-top: 15px;
-}
 
 #banner {
 	padding: 60px 0px 60px 0px;
@@ -8405,12 +8402,18 @@ button#contact-button {
 #social_media_menu li{
 	display: inline-block;
 	padding-right:15px;
-	opacity:0.2;
+	opacity:0.5;
 }
 
 #social_media_menu li:hover
 {
-	opacity:1;
+	opacity:0.9;
+}
+
+main
+{
+	background-color:#FAFAFA;
+	padding-bottom:25px;
 }
 
 @media print {
