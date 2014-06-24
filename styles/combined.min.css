@@ -8170,8 +8170,8 @@ transform: translateX(100%) rotate(120deg);
 }
 
 .footer {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
 	color: #999;
 	background-color:black;
@@ -8414,7 +8414,7 @@ button#contact-button {
 main
 {
 	background-color:#FAFAFA;
-	padding-bottom:25px;
+	padding-bottom:50px;
 }
 
 @media print {
