@@ -8451,6 +8451,7 @@ main
 .banner_subheadline {
 	font-size: 69px;
 	line-height: 1.1;
+	font-weight:bold;
 }
 
 .banner_text {
