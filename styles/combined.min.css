@@ -8334,6 +8334,7 @@ label {
 
 #banner-big {
 	background-color: #428BCA;
+	padding-top: 83px;
 }
 
 #skills ul {
@@ -8415,6 +8416,12 @@ main
 {
 	background-color:#FAFAFA;
 	padding-bottom:50px;
+}
+
+#navbar-greek{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 @media print {
