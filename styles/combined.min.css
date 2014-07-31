@@ -19,9 +19,10 @@
 	}
 
 	html {
-		font-family: sans-serif;
+		font-family: 'Droid Sans', sans-serif;
 		-webkit-text-size-adjust: 100%;
 		-ms-text-size-adjust: 100%;
+		background-color:black;
 	}
 
 	body {
@@ -235,10 +236,10 @@ html {
 }
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #333;
-	background-color: #fff;
+	background-color: #FAFAFA;
 }
 
 button, input, select, textarea {
@@ -348,6 +349,7 @@ h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
 .h2, h2 {
 	font-size: 30px;
 	padding-bottom: 10px;
+/*	border-bottom:1px solid #DDD;*/
 }
 
 .h3, h3 {
@@ -8168,12 +8170,12 @@ transform: translateX(100%) rotate(120deg);
 }
 
 .footer {
-	padding-top: 15px;
-	margin-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
-	min-height: 50px;
-	color: #666;
-	margin-top: 20px;
+	color: #999;
+	background-color:black;
+	
 }
 
 body {
@@ -8256,7 +8258,7 @@ h1 {
 }
 
 .affix {
-	top: 0;
+	top: 90px;
 }
 
 .affix-top {
@@ -8332,6 +8334,7 @@ label {
 
 #banner-big {
 	background-color: #428BCA;
+	padding-top: 83px;
 }
 
 #skills ul {
@@ -8378,10 +8381,6 @@ body > header {
 {
 	text-align:center;
 }
-#footer-greek > .container {
-	border-top: 1px solid #e5e5e5;
-	padding-top: 15px;
-}
 
 #banner {
 	padding: 60px 0px 60px 0px;
@@ -8405,12 +8404,24 @@ button#contact-button {
 #social_media_menu li{
 	display: inline-block;
 	padding-right:15px;
-	opacity:0.2;
+	opacity:0.5;
 }
 
 #social_media_menu li:hover
 {
-	opacity:1;
+	opacity:0.9;
+}
+
+main
+{
+	background-color:#FAFAFA;
+	padding-bottom:50px;
+}
+
+#navbar-greek{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 @media print {
@@ -8445,8 +8456,9 @@ button#contact-button {
 }
 
 .banner_subheadline {
-	font-size: 69px;
+	font-size: 67px;
 	line-height: 1.1;
+	font-weight:bold;
 }
 
 .banner_text {
