@@ -1,3 +1,0 @@
-athanasiosem.github.io
-======================
-This is my personal website.
