@@ -4,7 +4,9 @@
 }
 
 .container{
-background-color:white;}
+	background-color:white;
+	box-shadow:2px 2px 2px;
+}
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
