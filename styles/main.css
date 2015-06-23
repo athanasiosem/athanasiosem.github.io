@@ -154,6 +154,10 @@ body {
 	background: url("../images/bgpattern.png");
     color: #333;
 }
+header
+{
+	padding-top:15px;
+}
 h1 {
     font-size: 3em;
 }
@@ -176,6 +180,7 @@ body {
 
 .header {
     border-bottom: 1px solid #333;
+	
 }
 /* Make the masthead heading the same height as the navigation */
 
