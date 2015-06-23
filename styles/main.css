@@ -85,6 +85,13 @@ h1 {
     font-size: 20px;
     color: #d6ecff;
 }
+
+#about img
+{
+	float:left;
+	margin-right:15px;
+}
+
 #contact h2 {
     font-size: 20px;
     background-color: #eee;
