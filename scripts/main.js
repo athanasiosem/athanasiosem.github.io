@@ -14,6 +14,7 @@
             $('#home').show();
             $('#about').hide();
             $('#contact').hide();
+            $('#projects').hide();
 
             // Remove active class from all other navigation items and add it to this item
 
@@ -29,10 +30,11 @@
             $('#home').slideDown();
             $('#about').slideUp();
             $('#contact').slideUp();
+            $('#projects').slideUp();
 
             // Remove active class from all other navigation items and add it to this item
 
-            $('#about-nav-li,#contact-nav-li').removeClass("active");
+            $('#about-nav-li,#contact-nav-li,#projects-nav-li').removeClass("active");
             $('#home-nav-li').addClass("active");
 
         });
@@ -44,15 +46,34 @@
             $('#home').slideUp();
             $('#about').slideDown();
             $('#contact').slideUp();
+            $('#projects').slideUp();
+
 
             // Remove active class from all other navigation items and add it to this item
 
-            $('#home-nav-li,#contact-nav-li').removeClass("active");
+            $('#home-nav-li,#contact-nav-li,#projects-nav-li').removeClass("active");
             $('#about-nav-li').addClass("active");
 
         });
 
-        
+        this.get('#/projects', function (context) {
+
+            // Hide all other pages and show only this page
+
+            $('#home').slideUp();
+            $('#about').slideUp();
+            $('#projects').slideDown();
+            $('#contact').slideUp();
+
+
+            // Remove active class from all other navigation items and add it to this item
+
+            $('#home-nav-li,#about-nav-li,#contact-nav-li').removeClass("active");
+            $('#projects-nav-li').addClass("active");
+
+        });
+
+
 
         this.get('#/contact', function (context) {
 
@@ -60,12 +81,13 @@
 
             $('#home').slideUp();
             $('#about').slideUp();
+            $('#projects').slideUp();
             $('#contact').slideDown();
 
 
             // Remove active class from all other navigation items and add it to this item
 
-            $('#home-nav-li,#about-nav-li').removeClass("active");
+            $('#home-nav-li,#about-nav-li,#projects-nav-li').removeClass("active");
             $('#contact-nav-li').addClass("active");
 
         });
@@ -75,8 +97,8 @@
 
     $(function () {
         app.run('#/');
-       
-     
+
+
     });
 
 })(jQuery);
