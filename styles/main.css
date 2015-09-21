@@ -3,6 +3,14 @@
     display:none;
 }
 
+.centered{
+	text-align:center;
+}
+
+.toppadded{
+	top-padding:20px;
+}
+
 .container{
 	background-color:white;
 	box-shadow:2px 2px 2px;
