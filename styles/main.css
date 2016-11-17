@@ -101,6 +101,7 @@ h1 {
 
 #about img
 {
+	float:left;
 	margin-right:15px;
 	margin-bottom:10px;
 }
