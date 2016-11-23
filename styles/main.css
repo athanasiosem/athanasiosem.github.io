@@ -1,3 +1,6 @@
+html{
+    heigth:100%;
+}
 #home, #about, #cv , #projects, #contact
 {
     display:none;
