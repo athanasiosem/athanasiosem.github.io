@@ -164,7 +164,7 @@ div#logo-holder h3 strong a {
     padding: 0.2em 0;
 }
 body {
-    background: lightgray;
+    background: linear-gradient(gray, lightgray);
 /*	background: url("../images/bgpattern.png"); */
     color: #333;
 }
