@@ -103,4 +103,4 @@
 
 })(jQuery);
 
-var easter_egg = new Konami(function() { alert('Konami code!')});
+var easter_egg = new Konami(function() { alert('Jesus answered, “I am the way and the truth and the life. No one comes to the Father except through me. John 14:6')});
