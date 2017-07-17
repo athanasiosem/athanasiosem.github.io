@@ -3,6 +3,8 @@
  * @author Athanasios Emmanouilidis
  */
 
+ console.info("Hint: This page contains an easter egg. Happy time finding it! :-)");
+
 (function ($) {
 
     var app = $.sammy('body', function () {
