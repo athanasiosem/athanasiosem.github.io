@@ -3,7 +3,7 @@
  * @author Athanasios Emmanouilidis
  */
 
- console.info("Hint: This page contains an easter egg. Happy time finding it! :-)");
+ console.info("Hint: Use the Konami Code for a special easter egg in this page. :-)");
 
 (function ($) {
 
