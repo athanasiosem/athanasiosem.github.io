@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+    background: #11151E;
+    ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background: #11151E;
+    color: gray;
+}
+
+main {
+    min-width: 40%;
+    height: 433px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+ul {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    flex: 1 1 100%;
+    padding: 5px;
+    background-image: linear-gradient( to bottom, transparent 50%, white 50%, white 95%, #0D3184 95%);
+    background-size: 100% 200%;
+    background-position: top center;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+
+li:hover {
+    background-position: bottom center;
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
+}
+
+.active {
+    background-position: bottom center;
+    background-image: linear-gradient( to bottom, transparent 50%, white 50%, white 95%, #0D3184 95%);
+}
+
+li a {
+    color: #111;
+    display: block;
+    padding: 1rem 0;
+    transition: all .25s ease-in-out;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-control {
+    width: 100%;
+}
+
+div#inputAndSelectHolder {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div#result {
+    color: #111;
+    background-color:aliceblue;
+    border: 1px dotted;
+    margin-top: 20px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.show_error {
+    margin-top: 10px;
+}
+
+input#input1 {
+    margin-bottom: 10px;
+}
+
+select#select1 {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    text-shadow: 2px 2px darkgrey;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #11151E;
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+div.banner {
+    width: 728px;
+    height: 90px;
+    background-color: darkgray;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #111;
+}
+
+
+/* when hiding the picture */
+
+.ng-hide-add {
+    animation: 0.5s flipOutX ease;
+}
+
+
+/* when showing the picture */
+
+.ng-hide-remove {
+    animation: 0.5s flipInX ease;
+}
+
+
+/* ANIMATIONS (FROM ANIMATE.CSS) ======================== */
+
+
+/* flip in */
+
+@keyframes flipInX {
+    0% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transition-timing-function: ease-in;
+        opacity: 0;
+    }
+    40% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+    }
+    60% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+    80% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    100% {
+        transform: perspective(400px);
+        transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+
+
+/* light speed out */
+
+@keyframes lightSpeedOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes flipOutX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        opacity: 1;
+    }
+	100% {
+        -webkit-transform: perspective(400px) rotateX(90deg);
+        opacity: 0;
+    }
+}

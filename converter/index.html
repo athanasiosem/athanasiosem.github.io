@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="converter">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AEM Converter - Convert from one unit to another.</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+    <script src="scripts/aem-unit-converter.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services/lengthConverterFactory.js"></script>
+    <script src="scripts/services/temperatureConverterFactory.js"></script>      
+    <script src="scripts/services/areaConverterFactory.js"></script>    
+    <script src="scripts/services/volumeConverterFactory.js"></script>      
+    <script src="scripts/services/weightConverterFactory.js"></script>      
+    <script src="scripts/services/timeConverterFactory.js"></script>    
+    <script src="scripts/controllers/NavController.js"></script>
+    <script src="scripts/controllers/LengthAndDistanceController.js"></script>
+    <script src="scripts/controllers/TemperatureController.js"></script>
+    <script src="scripts/controllers/AreaController.js"></script>
+    <script src="scripts/controllers/VolumeController.js"></script>
+    <script src="scripts/controllers/WeightController.js"></script>
+    <script src="scripts/controllers/TimeController.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><strong>AEM</strong> Unit Converter</h1>
+        <p>Convert from one unit to another.</p>
+    </header>
+    <div class="banner">Your ad here.&nbsp;<a href="mailto:athanasiosem@gmail.com">Contact us</a>&nbsp;for price.</div>
+    <main>
+        <nav ng-controller="NavController">
+        <ul>
+            <li ng-class="{ active: isActive('/length') || isActive('/')}"><a href="#!length">Length</a></li>
+            <li ng-class="{ active: isActive('/temperature')}"><a href="#!temperature">Temperature</a></li>
+            <li ng-class="{ active: isActive('/area')}"><a href="#!area">Area</a></li>
+            <li ng-class="{ active: isActive('/volume')}"><a href="#!volume">Volume</a></li>
+            <li ng-class="{ active: isActive('/weight')}"><a href="#!weight">Weight</a></li>
+            <li ng-class="{ active: isActive('/time')}"><a href="#!time">Time</a></li>
+        </ul>
+        </nav>
+        <ng-view></ng-view>
+    </main>
+    <footer>Copyright <script> document.write(new Date().getFullYear());</script> 
+        <strong>AEM</strong> - Athanasios Emmanouilidis<br>We are NOT responsible for any error / damage caused by using our app.<br>
+    Made with ❤ in Thessaloniki, Macedonia, Greece.</footer>
+</body>
+
+</html>
