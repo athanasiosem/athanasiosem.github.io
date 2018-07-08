@@ -1,0 +1,19 @@
+<div id="inputAndSelectHolder">
+        <form name="form">
+            <input type="number" name="input1" id="input1" class="form-control" ng-model="input1" ng-change="convert()" ng-maxlength="15"
+                placeholder="Enter number">
+            <span ng-show="form.input1.$error.maxlength" class="alert alert-danger show_error">Error: Maximum number of digits is 15</span>
+            <label for="select1">From:</label>
+            <select id="select1" name="select1" class="form-control" ng-model="unit" ng-change="convert()">
+                <option ng-repeat="x in units">{{x}}</option>            
+            </select>
+            <label for="select2">To:</label>
+            <select id="select2" name="select2" class="form-control" ng-model="unit2" ng-change="convert()">
+                <option ng-repeat="x in units">{{x}}</option>            
+            </select>
+        </form>
+    </div>
+    <div id="result" ng-show="inputIsGiven()">
+        <h4>{{ resultStart }}</h4>
+        <h2>{{ result }}</h2>
+    </div>
