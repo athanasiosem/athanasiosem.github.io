@@ -238,7 +238,7 @@ div.banner {
         min-width:320px;
         height:433px;
         background-color:white;
-        margin:0px;
+        margin:10px 0px 0px 0px;
         padding:0px;
         border-radius: 0px;
         border:0px solid lightgray;
