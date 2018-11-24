@@ -1,6 +1,7 @@
 html{
     height:100%;
 }
+
 #home, #about, #cv , #projects, #contact
 {
     display:none;
@@ -165,8 +166,8 @@ div#logo-holder h3 strong a {
 }
 body {
     background: linear-gradient(gray, lightgray);
-/*	background: url("../images/bgpattern.png"); */
-    color: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header
 {
