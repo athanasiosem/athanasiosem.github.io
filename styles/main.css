@@ -265,6 +265,10 @@ body {
      font-size:13px;
 }
 
-#mainPageImage{
+#mainPageImage {
 	margin:0 auto;
+}
+
+.navbar-toggle {
+	margin-right:0px;
 }
