@@ -265,7 +265,7 @@ body {
      font-size:13px;
 }
 
-#mainPageImage {
+#mainPageImage, #secondPageImage {
 	margin:0 auto;
 }
 
