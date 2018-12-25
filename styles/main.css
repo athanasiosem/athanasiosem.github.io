@@ -272,3 +272,7 @@ body {
 .navbar-toggle {
 	margin-right:0px;
 }
+
+#nameHeading{
+    font-size: 50px;
+}
