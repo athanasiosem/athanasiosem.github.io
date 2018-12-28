@@ -166,8 +166,9 @@ div#logo-holder h3 strong a {
 }
 body {
     background: linear-gradient(gray, lightgray);
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    background: url("../images/Rose-Petals.svg");
+    background-size:cover;
 }
 header
 {
