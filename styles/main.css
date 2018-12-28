@@ -165,7 +165,6 @@ div#logo-holder h3 strong a {
     padding: 0.2em 0;
 }
 body {
-    background: linear-gradient(gray, lightgray);
     background-attachment: fixed;
     background: url("../images/Rose-Petals.svg");
     background-size:cover;
