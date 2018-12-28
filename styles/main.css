@@ -167,6 +167,7 @@ div#logo-holder h3 strong a {
 body {
     background-attachment: fixed;
     background: url("../images/Rose-Petals.svg");
+    /* background by SVGBackgrounds.com */
     background-size:cover;
 }
 header
@@ -262,7 +263,8 @@ body {
 }
 
 .headline-description {
-     font-size:13px;
+     font-size:14px;
+     line-height: 1.4;
 }
 
 #mainPageImage, #secondPageImage {
