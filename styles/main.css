@@ -168,6 +168,7 @@ body {
     background-attachment: fixed;
     background: url("../images/Rose-Petals.svg");
     /* background by SVGBackgrounds.com */
+    background-repeat:no-repeat;
     background-size:cover;
 }
 header
