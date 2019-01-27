@@ -170,6 +170,8 @@ body {
     /* background by SVGBackgrounds.com */
     background-repeat:no-repeat;
     background-size:cover;
+    font-size:15px;
+    line-height: 1.5em;
 }
 header
 {
@@ -261,11 +263,6 @@ body {
         color: #333;
         border-top: 1px solid #333;
     }
-}
-
-.headline-description {
-     font-size:14px;
-     line-height: 1.4;
 }
 
 #mainPageImage, #secondPageImage {
