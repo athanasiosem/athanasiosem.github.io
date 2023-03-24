@@ -1,3 +1,3 @@
 athanasiosem.github.io
 ======================
-* Athanasios Emmanouilidis Old Professional Website - now forwarding to emman.dev
+* Athanasios Emmanouilidis old Professional Website - Now forwarding to emman.dev
